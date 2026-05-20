@@ -17,6 +17,9 @@ p {
 
 
 .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
     
 }
 
@@ -36,5 +39,8 @@ p {
 }
 
 .list-column-style {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     
 }
