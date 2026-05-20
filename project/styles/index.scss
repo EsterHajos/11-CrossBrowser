@@ -11,7 +11,23 @@ body {
 p {
     font-size: 16px;
     line-height: 1.5;
-    color: blue;
+    color: black;
+}
+
+.p-intro {
+    font-size: 40px;
+    font-weight: bold;
+    color: #111111;
+
+    & span {
+        color: #4A4FF2;
+    }
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4A4FF2;
 }
 
 
@@ -23,11 +39,15 @@ p {
 }
 
 .text-right-page {
-    text-align: right;
+    width: fit-content;
+    max-width: 500px;
+    margin-right: auto;
 }
 
 .text-left-page {
-    text-align: left;
+    width: fit-content;
+    max-width: 500px;
+    margin-left: auto;
 }
 
 .container-images {
@@ -42,4 +62,10 @@ p {
     flex-direction: column;
     gap: 10px;
     
+}
+
+.p-grey-text {
+    color: #979797;
+    font-size: 18px;
+    font-weight: italic;
 }
