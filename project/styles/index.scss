@@ -1,18 +1,30 @@
-@import'fonts';
-@import'contact';
-@import'footer';
-@import'navigation';
-
-
-*{
-    width: 1360px;
-    height: auto;
-
-}
+@import 'fonts';
+@import 'contact';
+@import 'footer';
+@import 'navigation';
 
 body {
-    width: 1110px;
     margin: 0 auto;
-
+    max-width: 1110px;
+    font-family: "Mulish", sans-serif;
 }
 
+
+.title {
+    
+}
+
+.text-right-page {
+    text-align: right;
+}
+
+.text-left-page {
+    text-align: left;
+}
+
+.container-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+}
