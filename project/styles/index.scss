@@ -4,9 +4,15 @@
 @import 'navigation';
 
 body {
-    margin: 0 auto;
     max-width: 1110px;
     font-family: "Mulish", sans-serif;
+    background-color: blue; !important;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: blue;
 }
 
 
