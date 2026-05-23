@@ -1,10 +1,18 @@
+h2.contact {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: bold;
+    color: #111111;
+
+}
+
+
+
 .container-form {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+flex-direction: column;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: white;
  
 }
 
@@ -26,4 +34,73 @@
 
 .input-field {
 border: none;
+}
+
+
+
+p {
+    font-size: 16px;
+    line-height: 26;
+    color: black;
+    opacity: 80%;
+}
+
+.p-intro {
+    font-size: 40px;
+    font-weight: bold;
+    color: #111111;
+
+    & span {
+        color: #4A4FF2;
+    }
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4A4FF2;
+}
+
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+
+.text-left-page {
+    display: flex;
+    flex: 1;
+    margin-left: auto;
+    gap: 20px;  
+}
+
+.text-right-page {
+     display: flex;
+    flex: 1;
+    margin-right: auto;
+    gap: 20px;
+   
+}
+
+.container-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.list-column-style {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.p-grey-text {
+    color: #979797;
+    font-size: 18px;
+    font-weight: italic;
 }

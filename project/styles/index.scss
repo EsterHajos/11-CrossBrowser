@@ -1,17 +1,28 @@
-@import 'fonts';
-@import 'contact';
-@import 'footer';
-@import 'navigation';
+@import '_fonts';
+@import '_contact';
+@import '_footer';
+@import '_navigation';
+@import '_projectdetails';
 
 body {
-    max-width: 1110px;
+    margin: 0;
     font-family: "Mulish", sans-serif;
+     margin-left: 125px;
+    margin-right: 125px;
+    
+}
+
+.page {
+    display: flex;
+    gap: 60px;
+
 }
 
 p {
     font-size: 16px;
     line-height: 1.5;
     color: black;
+    max-width: 400px;;
 }
 
 .p-intro {
@@ -28,6 +39,7 @@ h3 {
     font-size: 22px;
     font-weight: bold;
     color: #4A4FF2;
+    max-width: 400px;
 }
 
 
@@ -38,16 +50,13 @@ h3 {
     
 }
 
-.text-right-page {
-    width: fit-content;
-    max-width: 500px;
-    margin-right: auto;
-}
 
 .text-left-page {
-    width: fit-content;
-    max-width: 500px;
-    margin-left: auto;
+    flex: 1;
+}
+
+.text-right-page {
+    flex: 1;
 }
 
 .container-images {
@@ -68,4 +77,23 @@ h3 {
     color: #979797;
     font-size: 18px;
     font-weight: italic;
+    max-width: 400px;
+    margin-top: 400px;
+}
+
+.text-after-pic {
+
+font-size: 28px;
+font-weight: bold;
+line-height: 38px;
+max-width: 400px;
+max-height: 106px;
+}
+
+.list-after-pic {
+font-size: 18px;
+max-width: 200px;
+max-height: 106px;
+justify-content: left;
+
 }
