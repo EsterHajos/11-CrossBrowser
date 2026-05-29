@@ -1,0 +1,39 @@
+.awards {
+    width: 90%;
+    margin: 100px auto;
+}
+
+.award-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.5fr 100px;
+    align-items: start;
+
+    padding: 40px 0;
+    border-top: 1px solid #cfcfcf;
+}
+
+.award-row h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.award-type h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.award-info h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.award-info p {
+    color: gray;
+    line-height: 1.6;
+    max-width: 250px;
+}
+
+.award-year {
+    justify-self: end;
+    font-size: 18px;
+}
