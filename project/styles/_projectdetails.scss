@@ -1,5 +1,4 @@
 .page {
-
 width: 80%;
 margin: auto;
 display: flex;
@@ -10,6 +9,11 @@ p {
     font-size: 16px;
     line-height: 1.5;
     color: black;
+}
+
+.expl-text {
+width: 635px;
+height: 222px;
 }
 
 .p-intro {
@@ -81,6 +85,8 @@ max-width: 1100px;
 line-height: 26px;
 font-size: 16px;
 opacity: 80%;
+margin-top: 50px;
+margin-bottom: 50px;
 
 }
 
@@ -124,4 +130,29 @@ opacity: 80%;
 .award-year {
     justify-self: end;
     font-size: 18px;
+}
+
+.page-right {
+    display: flex;
+    flex: 1;
+    margin-right: 200px;
+}
+
+
+.about-list {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+
+    gap: 20px 80px;
+
+    max-width: 500px;
+}
+
+.label {
+    color: gray;
+}
+
+.project-images {
+
+    margin-bottom: 50px;
 }
